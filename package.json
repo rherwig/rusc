@@ -1,0 +1,35 @@
+{
+  "name": "rusc",
+  "version": "1.0.0",
+  "description": "Project generator for modern, universal react apps",
+  "main": "index.js",
+  "bin": {
+    "rusc": "index.js"
+  },
+  "keywords": [
+    "react",
+    "generator",
+    "scaffold",
+    "universal",
+    "ssr",
+    "pwa",
+    "server-side rendering"
+  ],
+  "author": {
+    "name": "Rico Herwig",
+    "email": "rherwig4711@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rherwig/rusc.git"
+  },
+  "bugs": "https://github.com/rherwig/rusc/issues",
+  "license": "MIT",
+  "dependencies": {
+    "caporal": "^0.10.0",
+    "colors": "^1.2.1",
+    "prettier": "^1.12.1",
+    "prompt": "^1.0.0",
+    "shelljs": "^0.8.1"
+  }
+}
